@@ -1,2 +1,7 @@
 alias grep='grep --colour'
-alias ls='ls --color --format=vertical'
+if [[ "$OSTYPE" == darwin* ]]; then
+  export LSCOLORS=ExFxCxDxBxegedabagacad
+  export CLICOLOR=1
+else
+  alias ls='ls --color --format=vertical'
+fi
