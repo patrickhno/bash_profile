@@ -5,7 +5,7 @@ if [ -f ~/.bashrc ]; then
         . ~/.bashrc
 fi
 
-sh ~/.bash/paths.sh
-sh ~/.bash/aliases.sh
-sh ~/.bash/prompt.sh
-sh ~/.bash/rvm.sh
+source ~/.bash/paths.sh
+source ~/.bash/aliases.sh
+source ~/.bash/prompt.sh
+source ~/.bash/rvm.sh
