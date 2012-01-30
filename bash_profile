@@ -9,3 +9,4 @@ source ~/.bash/paths.sh
 source ~/.bash/aliases.sh
 source ~/.bash/prompt.sh
 source ~/.bash/rvm.sh
+source ~/.bash/source-hilite.sh
