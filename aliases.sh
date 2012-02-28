@@ -5,3 +5,5 @@ if [[ "$OSTYPE" == darwin* ]]; then
 else
   alias ls='ls --color --format=vertical'
 fi
+
+alias gitx='/Applications/GitX.app/Contents/MacOS/GitX &>/dev/null &'
