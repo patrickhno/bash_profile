@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+if `bundle platform` =~ /^Your platform is: /
+  system "bundle exec cap #{$*.join(' ')}"
+else
+  ENV['PATH'] = ENV['PATH'].gsub(/^\/Users\/patrick\/.bash\/bin/,'')
+  system("bundle exec cap #{$*.join(' ')}")
+end
